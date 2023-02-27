@@ -1,0 +1,20 @@
+.alumn_page {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.alumn_page > div {
+  justify-content: space-between;
+}
+
+.information_alumns {
+  position: relative;
+  align-items: flex-start;
+ /* Set margin-bottom instead of margin-top */
+}
+
+.alumn_achievements {
+  position: relative; /* Set position to relative */
+  top: 500px; /* Use top property to add space between elements */
+}
