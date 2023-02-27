@@ -1,0 +1,48 @@
+
+.achievementboard{
+  display: flex;
+  flex-direction:column;
+  box-sizing: border-box;
+  background-color: black;
+  color:white;
+  border-radius: 20px;
+  flex-wrap:nowrap;
+  max-width: 700px;
+  max-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .achievementboard > div{
+    justify-content: space-between;
+    text-align: center;
+  }
+  .achievementhead{
+    align-items: flex-start;
+    font-style: bold;
+    align-self: center;
+    font-size:large;
+    position: fixed;
+    margin-top: 2px;
+  }
+  .achievementcontent{
+    align-items: flex-end;
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px;
+    overflow-y: hidden;
+    overflow-y: scroll;
+  }
+  #elements{
+    border-collapse: collapse;
+    width: 100%;
+  }
+  #elements tr:nth-child(even){
+    background-color: #635c5c;
+  }
+  #elements tr:hover{
+    background-color: #ddd;
+    color:black;
+  }
+  #elements td{
+    padding: 8px;
+  }
