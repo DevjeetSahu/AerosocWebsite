@@ -1,0 +1,29 @@
+.alumn_content{
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:space-between;
+
+}
+
+
+.alumn_info{
+    flex-basis: calc((100% - 50px)/3);
+    margin: 50px;
+    align-items: center;
+    position:absolute;
+    border-radius:15px;
+    max-height: 200px;
+    padding:20px;
+    max-width: 150px;
+    border:2px solid black;
+    align-items:center;
+    font-size: large;
+    text-align: center;
+}
+.alumn_pic{
+    border-radius: 50%;
+    width:100px;
+}

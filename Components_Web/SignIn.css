@@ -1,0 +1,80 @@
+.SignIn_body{
+  display: flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:center;
+}
+.SignIn_text{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    max-width: fit-content;
+    float: left;
+    flex:50%;
+
+  }
+  .header_SignIn{
+    font-style: italic;
+    font-size:15px;
+    text-align:center;
+    margin-left: 5px;
+  }
+.SignInInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(117, 186, 209);
+    margin-top:5px;
+    padding: 30px;
+    z-index: 5px;
+    border-radius: 10px;
+  }
+  .emailid,.password,.SignIn_button{
+    border-radius: 10px;
+    margin: 10px;
+    width: auto;
+  }
+  .SignIn_button{
+    max-width: fit-content;
+    margin-left:auto;
+  }
+  
+    .SignIn_Pictures {
+      position: relative;
+      height: 950px;
+      width: 800px;
+      margin-right: 20px;
+      overflow: hidden;
+    }
+    
+    .Pic1 {
+      position: absolute;
+      top: 20px;
+      left: 90px;
+      z-index: 1;
+    }
+    
+    .Pic2 {
+      position: absolute;
+      top: 200px;
+      right: 370px;
+      z-index: 4;
+    }
+    
+    .Pic3 {
+      position: absolute;
+      top: 350px;
+      left: 50px;
+      z-index: 3;
+    }
+    
+    .Pic4 {
+      position: absolute;
+      top: 550px;
+      right: 410px;
+      z-index: 2;
+    }
+    
